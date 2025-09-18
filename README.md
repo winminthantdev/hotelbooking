@@ -87,10 +87,10 @@ Clone the repo and install dependencies:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/hotel-booking-frontend.git
+git clone https://github.com/winminthantdev/hotelbooking.git
 
 # Navigate into project
-cd hotel-booking-frontend
+cd hotelbooking/client
 
 # Install dependencies
 npm install   # or yarn install

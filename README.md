@@ -34,7 +34,7 @@
 ---
 
 ## 📂 Project Structure
-
+```
 src/
  ┣ features/
  ┃ ┣ auth/                # login, register, forgot password
@@ -70,7 +70,7 @@ src/
  ┣ App.jsx
  ┗ main.jsx
 
-
+```
 ---
 
 ## 🛠️ Tech Stack

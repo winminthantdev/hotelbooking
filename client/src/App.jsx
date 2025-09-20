@@ -1,5 +1,6 @@
 // src/App.jsx
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from 'react';
+import {BrowserRouter as Router,Routes,Route,Link} from 'react-router';
 import { useState } from "react";
 
 import HomePage from "./pages/HomePage";
@@ -13,19 +14,18 @@ import ProfilePage from "./features/profile/ProfilePage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+
 function App() {
+
   const [user, setUser] = useState(null); // for login state
 
   return (
-    <Router>
-      <div className="">
-        {/* Navbar */}
-        <Navbar user={user} />
+    <div className="App">
 
-        {/* Main Content */}
-        <main className="">
-          <Routes>
-            <Route path='/' element={<HomePage />} />
+      <Navbar user={user} />
+
+      <Routes>
+        <Route path='/' element={<HomePage />} />
             <Route path="/auth" element={<AuthPage />} />
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/rooms" element={<RoomsPage />} />
@@ -34,14 +34,11 @@ function App() {
             <Route path="/payment/:bookingId" element={<PaymentPage />} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="*" element={<p>Page Not Found</p>} />
-          </Routes>
-        </main>
+      </Routes>
 
-        {/* Footer */}
-        <Footer />
-      </div>
-    </Router>
-  );
+      <Footer />
+    </div>
+  )
 }
 
-export default App;
+export default App

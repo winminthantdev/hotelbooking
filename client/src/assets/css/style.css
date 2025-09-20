@@ -18,7 +18,7 @@ body{
 }
 
 header{
-  background:linear-gradient(10deg,rgba(0,0,0,0.3),rgba(0, 0, 0, 0.5)),url(./../assets/img/banner/banner3.jpg);
+  background:linear-gradient(10deg,rgba(0,0,0,0.3),rgba(0, 0, 0, 0.5)),url(./../img/banner/banner3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -74,7 +74,7 @@ header{
 
 /* Start Banner */
 .banners{
-  width: 1005;
+  width: 100%;
   background:linear-gradient(10deg,rgba(0,0,0,0.3),rgba(0, 0, 0, 0.5)),url(./../assets/img/banner/banner3.jpg);
   background-repeat: no-repeat;
   background-size: cover;

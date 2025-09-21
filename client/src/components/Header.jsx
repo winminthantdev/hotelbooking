@@ -1,15 +1,11 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar/Navbar";
 
 const Header = () => {
   return (
     <>
       {/* Start Header Section */}
       <header>
-        {/* Start  Nav Bar */}
-        <Navbar />
-        {/* End Nav Bar */}
-
         {/* Start Banner */}
         <div className="container-fluid banners">
           <div className="row p-lg-5 m-lg-3">

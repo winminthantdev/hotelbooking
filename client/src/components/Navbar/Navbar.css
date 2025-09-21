@@ -1,0 +1,24 @@
+/* start navbar */
+.lines1,
+.lines2,
+.lines3 {
+  width: 25px;
+  height: 3px;
+  margin: 6px;
+  background: #fff;
+
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.crossxs .lines1 {
+  transform: rotate(-45deg) translate(-6px, 6px) !important;
+}
+
+.crossxs .lines2 {
+  opacity: 0 !important;
+}
+
+.crossxs .lines3 {
+  transform: rotate(45deg) translate(-6px, -6px) !important;
+}
+/* end navbar */

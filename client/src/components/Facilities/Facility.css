@@ -1,0 +1,8 @@
+.facility_cards {
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  border-bottom: 2px solid transparent; 
+}
+
+.facility_cards:hover {
+  border-bottom-color: #f59e0b;
+}
